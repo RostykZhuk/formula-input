@@ -1,0 +1,30 @@
+.formula-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .result {
+    font-weight: bold;
+  }
+  
+  .ReactTags__tag {
+    background: #e0e0e0;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .operator-tag {
+    background: #f39c12 !important;
+    color: white !important;
+  }
+  
+  .formula-input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
